@@ -2,35 +2,46 @@ var data = [
     {
         "title": "Codifica",
         "description": "Codifica",
-        "link": ""
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
     },
     {
         "title": "Codifica1",
         "description": "Codifica1",
-        "link": ""
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
 
     },
     {
         "title": "Codifica3",
         "description": "Codifica3",
-        "link": ""
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
 
     },
     {
         "title": "Codifica4",
         "description": "Codifica4",
-        "link": ""
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "false"
+
 
     },
     {
         "title": "Codifica5",
         "description": "Codifica5",
-        "link": ""
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "false"
+
 
     },
     {
         "title": "Codifica6",
         "description": "Codifica6",
-        "link": ""
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
 
     },]

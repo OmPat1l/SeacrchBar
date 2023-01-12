@@ -14,13 +14,20 @@ var app = {
    render: function () {
       app.html.display.innerHTML = ''
       app.data.forEach(function (item) {
-         app.html.display.innerHTML += `
+         if (item.isboolean === "true") {
+            app.html.display.innerHTML += `
+         <a class="link1" href="${item.link}">
             <div class="item">
                <div class="title">${item.title}</div>
                <div class="description">${item.description}</div>
-               <a href="file:///C:/Users/Acer/Desktop/Ranking/ranklist/index.html">ClickHere</a>
+             
             </div>
+         </a>
+
          `;
+
+         }
+
       });
       app.html.items = document.querySelectorAll('.item')
    },
