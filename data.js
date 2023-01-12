@@ -80,29 +80,121 @@ var data = [
 
 
     }, {
-        "title": "CODE JUNKIE",
-        "description": "CODIFICA",
+        "title": "DELTA-SIGMA-PI",
+        "description": "LOGICA",
         "link": "../EventList/WebScape/index.html",
         "isboolean": "true"
 
 
     }, {
-        "title": "CODE JUNKIE",
-        "description": "CODIFICA",
+        "title": "INTEGRATION BEE",
+        "description": "LOGICA",
         "link": "../EventList/WebScape/index.html",
         "isboolean": "true"
 
 
     }, {
-        "title": "CODE JUNKIE",
-        "description": "CODIFICA",
+        "title": "FUSION ID",
+        "description": "POTENTIA",
         "link": "../EventList/WebScape/index.html",
         "isboolean": "true"
 
 
     }, {
-        "title": "CODE JUNKIE",
-        "description": "CODIFICA",
+        "title": "ASSEMBLIX",
+        "description": "POTENTIA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    },
+    {
+        "title": "GOOGLER",
+        "description": "PRODIGIUM",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "ASSEMBLIX",
+        "description": "PRODIGIUM",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "ROBO-ROYALE",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "ROBOWARS",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "SEARCH N’ DESTROY",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "ROBO RACES",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "VIRTUAL ROBOTICS",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "BOT WRESTLING",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "ROBO FALCONRY",
+        "description": "ROBOTICA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "BRIDGE THE GAP",
+        "description": "STRUKTURA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "CONQUEST",
+        "description": "STRUKTURA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "UTOPIA",
+        "description": "STRUKTURA",
+        "link": "../EventList/WebScape/index.html",
+        "isboolean": "true"
+
+
+    }, {
+        "title": "ID CIVIL",
+        "description": "STRUKTURA",
         "link": "../EventList/WebScape/index.html",
         "isboolean": "true"
 
