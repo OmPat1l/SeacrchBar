@@ -3,13 +3,13 @@ var data = [
         "title": "FLASH ",
         "description": "AMUZIA",
         "link": "../EventList/WebScape/index.html",
-        "isboolean": "true"
+        "isboolean": "false"
     },
     {
         "title": "FANDOM",
         "description": "AMUZIA",
         "link": "../EventList/WebScape/index.html",
-        "isboolean": "true"
+        "isboolean": "false"
 
 
     },
@@ -175,7 +175,7 @@ var data = [
         "title": "BRIDGE THE GAP",
         "description": "STRUKTURA",
         "link": "../EventList/WebScape/index.html",
-        "isboolean": "true"
+        "isboolean": "false"
 
 
     }, {

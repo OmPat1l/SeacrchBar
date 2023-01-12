@@ -2,15 +2,66 @@ html,
 body {
   padding: 0px;
   margin: 0px;
-  background: #677;
-  font-family: "Ubuntu", sans-serif;
+  /* background: #677;
+   */
+  background: var(--bg);
+  font-family: "Overpass Mono", system-ui;
+
   color: #FFF;
+}
+
+.c-card {
+  border-radius: 0.8rem;
+  background: var(--surface);
+  width: 100%;
+  margin-bottom: 1.6rem;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.12);
+}
+
+html {
+  --black: #000000;
+  --white: #ffffff;
+  --darkest: #101010;
+  --darker: #16171A;
+  --dark: #A3AFBF;
+  --medium: #DFE7EF;
+  --light: #CAD4E1;
+  --lighter: #F5F8FC;
+  --lightest: var(--white);
+  --primary: #7B16FF;
+  --primary-light: #DDD9FF;
+  --primary-trans: rgba(123, 22, 255, 0.4);
+  --yellow: #FDCB6E;
+  --orange: #E17055;
+  --teal: #00CEC9;
+  --bg: var(--darkest);
+  --color: var(--lightest);
+  --surface: var(--darker);
 }
 
 .display {
   max-height: 60vh;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.c-header {
+  padding: 1.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+  position: relative;
+}
+
+.c-header:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 0.2rem;
+  background: var(--primary-trans);
 }
 
 .title {
@@ -112,7 +163,7 @@ body * {
 .display {
   flex: 1;
   background: #94f;
-  ;
+  border-ra: ;
   overflow-y: auto;
 }
 
@@ -128,13 +179,42 @@ body * {
 }
 
 .display .item .title {
+  text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 30px;
+  text-decoration: none !important;
+
+}
+
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+
+.display .item .title:link {
+  /* text-decoration: none; */
+
+
 }
 
 .display .item .description {
   opacity: 0.9;
   font-size: 14px;
+  text-align: center;
+
 }
 
 .display .item.hide {

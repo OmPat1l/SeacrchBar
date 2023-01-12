@@ -14,19 +14,25 @@ var app = {
    render: function () {
       app.html.display.innerHTML = ''
       app.data.forEach(function (item) {
-         if (item.isboolean === "true") {
-            app.html.display.innerHTML += `
-         <a class="link1" href="${item.link}">
-            <div class="item">
-               <div class="title">${item.title}</div>
-               <div class="description">${item.description}</div>
-             
-            </div>
-         </a>
+         // if (item.isboolean === "true") {
+         app.html.display.innerHTML += `
 
-         `;
+         
+            <a class="link1" style="text-decoration:none;"href="${item.link}">
+               <div class="item">
+                  <div class="title">${item.title}</div>
+                  <div class="description">${item.description}</div>
+                
+               </div>
+            </a>
+   
+            `;
 
-         }
+
+
+
+
+
 
       });
       app.html.items = document.querySelectorAll('.item')
