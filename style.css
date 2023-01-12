@@ -7,6 +7,12 @@ body {
   color: #FFF;
 }
 
+.display {
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .title {
   text-decoration: none;
 }
@@ -143,15 +149,7 @@ body * {
   text-decoration: none;
 }
 
-@keyframes opacitize {
-  from {
-    opacity: 0;
-  }
 
-  to {
-    opacity: 1;
-  }
-}
 
 @media (max-width:500px) {
   main {
